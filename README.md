@@ -19,10 +19,11 @@
 # Delete branches without upstream
 ./removeNoUpstreamBranches.sh
 
-## Delete the remaining branch
+## Delete branch on remote repository
 git push <remote_name> --delete <branch_name>
 git push origin --delete branch1
 
+## Delete branch from local system
 ## "-D" is an alias for "--delete --force"
 git branch -D <branch_name>
 git branch -D branch1
