@@ -1,3 +1,4 @@
+#!/bin/bash
 
 ## Delete all branches without upstream
 while read branch; do

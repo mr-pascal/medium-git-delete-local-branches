@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## Create new local branch and push to remote
 git co -b branch1
 git push --set-upstream origin branch1
